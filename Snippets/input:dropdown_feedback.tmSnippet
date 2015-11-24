@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;optionresponse&gt;
+	&lt;optioninput label="for accessibility"&gt;
+		&lt;option correct="false"&gt; Choice A &lt;optionhint&gt;Feedback A&lt;/optionhint&gt; &lt;/option&gt;
+		&lt;option correct="true" &gt; Choice B &lt;optionhint&gt;Feedback B&lt;/optionhint&gt; &lt;/option&gt;
+		&lt;option correct="false"&gt; Choice C &lt;optionhint&gt;Feedback C&lt;/optionhint&gt; &lt;/option&gt;
+		&lt;option correct="false"&gt; Choice D &lt;optionhint&gt;Feedback D&lt;/optionhint&gt; &lt;/option&gt;
+	&lt;/optioninput&gt;
+&lt;/optionresponse&gt;</string>
+	<key>name</key>
+	<string>input:dropdown_feedback</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>input:dropdownfeedback</string>
+	<key>uuid</key>
+	<string>61B9126E-99B7-407B-AE3E-E0389DEA0C62</string>
+</dict>
+</plist>
