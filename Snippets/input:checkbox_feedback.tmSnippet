@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;choiceresponse&gt;
+  &lt;checkboxgroup label="Mark the true statements" direction="vertical"&gt;
+    &lt;choice correct="true" &gt; Choice A 
+		&lt;choicehint selected="true" &gt; You did choose A &lt;/choicehint&gt;
+		&lt;choicehint selected="false"&gt; You did not choose A &lt;/choicehint&gt;
+	&lt;/choice&gt;
+    &lt;choice correct="false"&gt; Choice B 
+		&lt;choicehint selected="true" &gt; You did choose B &lt;/choicehint&gt;
+		&lt;choicehint selected="false"&gt; You did not choose B &lt;/choicehint&gt;
+	&lt;/choice&gt;
+    &lt;choice correct="true" &gt; Choice C &lt;/choice&gt;
+	&lt;choice correct="false"&gt; Choice D &lt;/choice&gt;
+	&lt;compoundhint value="A B D"&gt; You chose A, B, and D!&lt;/compoundhint&gt;
+	&lt;compoundhint value="A C D"&gt; You chose A, C, and D!&lt;/compoundhint&gt;
+  &lt;/checkboxgroup&gt;
+&lt;/choiceresponse&gt;</string>
+	<key>name</key>
+	<string>input:checkbox_feedback</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>input:checkbox_feedback</string>
+	<key>uuid</key>
+	<string>48557BBC-3149-4595-AA73-EC97A7D9EA8C</string>
+</dict>
+</plist>
